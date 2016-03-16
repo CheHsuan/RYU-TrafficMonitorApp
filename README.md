@@ -15,9 +15,9 @@ Step
 	
 	2.OpenFlow setting
 	
-		set Bridge s1 protocols=OpenFlow13
+		ovs-vsctl set Bridge s1 protocols=OpenFlow13
 	
-		set-manager ptcp:6632
+		ovs-vsctl set-manager ptcp:6632
 	
 	3.Run controller
 	
